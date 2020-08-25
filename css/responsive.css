@@ -6,7 +6,7 @@
 @media(max-width: 768px){
     section .box-comic-layout .img img{width: 100%;}
     #menuModal .modal-dialog{max-width: 80%;}
-    body .main-content-comic{padding: 50px;}
+    body .main-content-comic{padding: 10px;}
     section#wrap-notify ul li button{width: auto; margin: 0;}
     section#wrap-notify ul li a{width: 70%;}
     section#wrap-launch-time .time{padding: 25px 10px; width: 20%;}
@@ -57,4 +57,5 @@
     section#wrap-highlights .box-comic{margin-bottom: 25px;}
     section#wrap-highlights .row{max-height: 500px; overflow-y: scroll;}
     section#wrap-highlights .row .col-md-12:first-child{margin-bottom: 0;}
+    section#wrap-detail .content-right .content-top .button-action .btn:nth-child(n+3){margin-top: 15px;}
 }

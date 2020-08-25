@@ -44,7 +44,7 @@ section .title{margin-bottom: 15px;}
 section .title span{font-size: 20px; font-weight: bold; text-transform: uppercase;}
 
 /* default-box-comic-in-layout */
-section .box-comic-layout{margin-bottom: 30px;}
+section .box-comic-layout{margin-bottom: 30px; height: 100%;}
 section .box-comic-layout .img{position: relative; overflow: hidden;}
 section .box-comic-layout .img .note{position: absolute; bottom: 0; left: 0; width: 100%; background-color: #333333; opacity: 0.85; color: white; display: flex; justify-content: space-between; padding: 5px 20px;}
 section .box-comic-layout .img .note .view, section .box-comic-layout .img .note .comment{display: flex; align-items: center;}
@@ -112,8 +112,8 @@ section#wrap-detail .content-right .content-top h3{font-weight: bold; font-size:
 section#wrap-detail .content-right .content-top p{font-size: 24px;}
 section#wrap-detail .content-right .content-top .group-review{display: flex; justify-content: space-between; margin: 20px 0;}
 section#wrap-detail .content-right .content-top .group-review span{font-size: 20px; margin-left: 15px; color: #828282;}
-section#wrap-detail .content-right .content-top .button-action{display: flex; justify-content: space-between; margin-bottom: 20px;}
-section#wrap-detail .content-right .content-top .button-action .btn{width: 47%; border: 1px solid #FF3D00; color: #FF3D00; background-color: white; padding: 10px 0 ;}
+section#wrap-detail .content-right .content-top .button-action{display: flex; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap;}
+section#wrap-detail .content-right .content-top .button-action .btn{width: 47%; border: 1px solid #FF3D00; color: #FF3D00; background-color: white; padding: 10px 0 ; }
 section#wrap-detail .content-right .content-top .button-action .btn:hover{background-color: #FF3D00; color: white;}
 section#wrap-detail .content-right .content-bottom{height: 100%; display: flex; justify-content: space-between; flex-direction: column;}
 section#wrap-detail .content-right .content-bottom p{font-size: 20px; border-bottom: 1px solid #000000; padding: 20px 0; margin-bottom: 10px;}
