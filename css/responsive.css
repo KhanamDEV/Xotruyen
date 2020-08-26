@@ -51,11 +51,16 @@
     section .title{text-align: center;}
     header#wrap-header{padding: 25px 10px 60px 10px; position: relative;}
     header#wrap-header .search{position: absolute; bottom: 10px; left: 10px; width: 87%;}
-    section#wrap-highlights .hightlight-left{flex-direction: column;}
+    section#wrap-highlights .hightlight-left{display: none;}
+    section#wrap-highlights .hightlight-right{display: none;}
     section#wrap-highlights .hightlight-left .box-comic{width: 100%;}
     section#wrap-highlights img{width: 100%;}
     section#wrap-highlights .box-comic{margin-bottom: 25px;}
     section#wrap-highlights .row{max-height: 500px; overflow-y: scroll;}
     section#wrap-highlights .row .col-md-12:first-child{margin-bottom: 0;}
     section#wrap-detail .content-right .content-top .button-action .btn:nth-child(n+3){margin-top: 15px;}
+    section#wrap-breadcumb{padding-left: 10px;}
+    header#wrap-header .logo{text-align: center; width: 100%;}
+    header#wrap-header .menu{position: absolute; bottom: 20px; right: 10px;}
+    header#wrap-header .form-search{width: 95%;}
 }
