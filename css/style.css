@@ -169,3 +169,15 @@ footer#wrap-footer .contact{display: flex; justify-content: space-between; paddi
 footer#wrap-footer .contact a{color: white;}
 footer#wrap-footer .contact img{margin-right: 10px;}
 footer#wrap-footer .copyright{width: 50%; margin: 0 auto;color: white; text-align: center; padding: 15px 0; border-top: 1px solid #333333;}
+
+
+/* modal-filter */
+.modal-filter{overflow-x: scroll; overflow-y: hidden; white-space: nowrap; padding: 10px;}
+.modal-filter .box-filter-select{display: inline-flex;  width: 100%; justify-content: space-between; flex-wrap: wrap;}
+.modal-filter .box-filter-select:not(:last-child){margin-right: 10px;}
+.modal-filter .box-filter-select button{width: 48%; background-color: transparent; border: 1px solid #BDBDBD}
+.modal-filter .box-filter-select button:nth-child(n+3){margin-top: 15px;}
+.modal-filter::-webkit-scrollbar-track{-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);border-radius: 10px;background-color: #F5F5F5;}
+.modal-filter::-webkit-scrollbar{width: 12px;background-color: #F5F5F5;}
+.modal-filter::-webkit-scrollbar-thumb{border-radius: 10px;-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);background-color: #EB5757;}
+section#wrap-form-filter select option{display: none;}
