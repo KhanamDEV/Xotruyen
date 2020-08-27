@@ -172,7 +172,7 @@ footer#wrap-footer .copyright{width: 50%; margin: 0 auto;color: white; text-alig
 
 
 /* modal-filter */
-.modal-filter{overflow-x: scroll; overflow-y: hidden; white-space: nowrap; padding: 10px;}
+.modal-filter{overflow-x: scroll; overflow-y: hidden; white-space: nowrap; padding: 10px; }
 .modal-filter .box-filter-select{display: inline-flex;  width: 100%; justify-content: space-between; flex-wrap: wrap;}
 .modal-filter .box-filter-select:not(:last-child){margin-right: 10px;}
 .modal-filter .box-filter-select button{width: 48%; background-color: transparent; border: 1px solid #BDBDBD}

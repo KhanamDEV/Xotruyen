@@ -20,6 +20,10 @@
     section#wrap-detail .row .img img{width: 100%;}
 }
 
+@media(min-width: 575px){
+    .modal-dialog{margin: 6rem auto;}
+}
+
 @media(max-width: 576px){
     section#wrap-detail .row .img img{width: auto;}
     footer#wrap-footer .logo{padding: 35px 0;}
