@@ -181,3 +181,4 @@ footer#wrap-footer .copyright{width: 50%; margin: 0 auto;color: white; text-alig
 .modal-filter::-webkit-scrollbar{width: 12px;background-color: #F5F5F5;}
 .modal-filter::-webkit-scrollbar-thumb{border-radius: 10px;-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);background-color: #EB5757;}
 section#wrap-form-filter select option{display: none;}
+.owl-carousel img{max-height: 200px;}
