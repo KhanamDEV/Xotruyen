@@ -67,4 +67,5 @@
     header#wrap-header .logo{text-align: center; width: 100%;}
     header#wrap-header .menu{position: absolute; bottom: 20px; right: 10px;}
     header#wrap-header .form-search{width: 95%;}
+    .owl-theme .owl-nav{margin-top: -10px;}
 }
