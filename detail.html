@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/emojionearea.min.css">
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
@@ -91,7 +93,7 @@
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="list" role="tabpanel" aria-labelledby="home-tab">
+                <div class="tab-pane fade " id="list" role="tabpanel" aria-labelledby="home-tab">
                     <ul>
                         <li><a href="">
                             Chap 1
@@ -175,8 +177,93 @@
                         </a></li>
                     </ul>
                 </div>
-                <div class="tab-pane fade" id="comment" role="tabpanel" aria-labelledby="profile-tab">
-                    <!-- comment -->
+                <div class="tab-pane fade show active" id="comment" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="group-post-comment">
+                        <div class="form-comment">
+                            <div class="show-img-emoji">
+                                <img src="" alt="">
+                                <i  class="fa close-emoji fa-times" aria-hidden="true"></i>
+                            </div>
+                            <form action="">
+                                <img src="./images/smile 1.png" class="emoji-label" alt="">
+                                <textarea name="" class="example1" cols="30" rows="1" placeholder="Nhập comment ở đây...."></textarea>
+                                <button class="btn orange"><img src="./images/send.png" alt=""></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="list-comment">
+                        <div class="item-comment">
+                            <div class="show">
+                                <div class="comment-left">
+                                    <a href="">
+                                        <img src="./images/thumbnail.png" alt="">
+                                    </a>
+                                    <button class="reply btn orange">Trả lời</button>
+                                </div>
+                                <div class="comemnt-right">
+                                    <div class="header-comment">
+                                        <a href="" class="user-comment">Oc bung bu</a>
+                                        <div class="level">
+                                            <img src="./images/level.png" alt="">
+                                            <span class="name-level">Đại Tỷ Nami</span>
+                                            <span class="vip bg-red">Vip 1</span>
+                                        </div>
+                                    </div>
+                                    <div class="footer-comment">
+                                        <div class="content-comment">
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis cupiditate unde, quat Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis cupiditate unde, qua Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis cupiditate unde sad, dsadsa </p>
+                                        </div>
+                                        <img src="./images/emoji/giphy1.webp" alt="">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="hide">
+                                <div class="group-post-comment">
+                                    <div class="form-comment">
+                                        <div class="show-img-emoji">
+                                            <img src="" alt="">
+                                            <i  class="fa close-emoji fa-times" aria-hidden="true"></i>
+                                        </div>
+                                        <form action="">
+                                            <img src="./images/smile 1.png" class="emoji-label" alt="">
+                                            <textarea name="" class="example1" cols="30" rows="1" placeholder="Nhập comment ở đây...."></textarea>
+                                            <button class="btn orange"><img src="./images/send.png" alt=""></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-reply">
+                                <div class="item-comment">
+                                    <div class="show">
+                                        <div class="comment-left">
+                                            <a href="">
+                                                <img src="./images/thumbnail.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="comemnt-right">
+                                            <div class="header-comment">
+                                                <a href="" class="user-comment">Oc bung bu</a>
+                                                <div class="level">
+                                                    <img src="./images/level.png" alt="">
+                                                    <span class="name-level">Đại Tỷ Nami</span>
+                                                    <span class="vip bg-red">Vip 1</span>
+                                                </div>
+                                            </div>
+                                            <div class="footer-comment">
+                                                <div class="content-comment">
+                                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis cupiditate unde, quat Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis cupiditate unde, qua Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis cupiditate unde sad, dsadsa </p>
+                                                </div>
+                                                <img src="./images/emoji/giphy1.webp" alt="">
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                        
+                    </div> 
                 </div>
               </div>
         </section>
@@ -426,8 +513,19 @@
             </div>
          </div> 
   </div>
+  <div class="modal fade" id="emojiModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      
+    <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="emoji"></div>
+            </div>
+         </div> 
+  </div>
     <script src="./js/jquery-3.4.1.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/emoji/emojionearea.js"></script>
+    <script src="./js/emoji/emoji.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>

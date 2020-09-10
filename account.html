@@ -1,590 +1,1135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
-</head>
-<body>
-    <header id="wrap-header" class="bg-red">
-        <div class="container">
-            <div class="search">
-                <div class="form-search">
-                    <img src="./images/search-orange.png" alt="">
-                    <form action="">
-                        <input type="text">
-                    </form>
-                </div>
-            </div>
-            <div class="logo">
-                <a href=""><img src="./images/logo.png" alt=""></a>
-            </div>
-            <div class="menu">
-                <button data-toggle="modal" data-target="#menuModal"><img class="pointer" src="./images/bar.png" alt=""></button>
-            </div>
-        </div>
-    </header>
-    <div id="main-container" class="container">
-        <section id="wrap-account">
-            <div class="thumbnail">
-                <img src="./images/thumbnail.png" alt="">
-                <p>Tài khoản của: ocbungbu</p>
-                <p>Email: ocbungbu@gmail.com</p>
-            </div>
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#list" role="tab" aria-controls="home" aria-selected="true">Thông tin chung</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#comment" role="tab" aria-controls="profile" aria-selected="false">Theo dõi</a>
-                </li>
-            </ul>
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="list" role="tabpanel" aria-labelledby="home-tab">
-                    <div class="group-infor">
-                        <a href="" class="btn select">Thông báo</a>
-                        <a href="" class="btn select">Đổi mật khẩu</a>
-                        <a href="" class="btn select">Đăng xuất</a>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="comment" role="tabpanel" aria-labelledby="profile-tab">
-                    <div class="box-comic-layout row padding-top">
-                        <div class="col-md-6 col-6 col-lg-3">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-6 col-lg-3">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view_1.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-6 col-lg-3">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view_2.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 col-6">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view_3.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 col-6">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 col-6">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view_1.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 col-6">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view_2.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 col-6">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view_3.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 col-6">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 col-6">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view_1.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 col-6">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view_2.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 col-6">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view_3.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 col-6">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 col-6">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view_1.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 col-6">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view_2.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 col-6">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view_3.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 col-6">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 col-6">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view_1.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 col-6">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view_2.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 col-6">
-                            <div class="box-comic-layout">
-                                <div class="img">
-                                    <a href="">
-                                        <img src="./images/image_view_3.png" alt="">
-                                    </a>
-                                    <div class="note">
-                                        <div class="view">
-                                            <img src="./images/eye.png" alt=""> <p>1.000.000</p>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="./images/comment.png" alt=""> <p>1.000</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <h3>Nanatsu No Taizai</h3>
-                                    <div class="info">
-                                        <p>Chapter 120</p>
-                                        <span>34 phút trước</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="btn more">Xem thêm nhiều truyện hơn</button>
-                </div>
-              </div>
-        </section>
-    </div>
-    <footer id="wrap-footer">
-        <div class="container">
-            <div class="logo">
-                <img src="./images/logo_2.png" alt="">
-            </div>
-            <div class="contact">
-                <div class="brand">
-                    <a href="">
-                        <img src="./images/fb.png" alt="">
-                        Fb.com/xotruyen.net
-                    </a>
-                </div>
-                <div class="brand">
-                    <a href="">
-                        <img src="./images/ytb.png" alt="">
-                        Yt/xotruyen.net
-                    </a>
-                </div>
-                <div class="brand">
-                    <a href="">
-                        <img src="./images/mail.png" alt="">
-                        Ocbungbu@gmail.com
-                    </a>
-                </div>
-            </div>
-            <div class="copyright">
-                <p>Ⓒ 2020 Bản quyền thuộc về Xó Truyện</p>
-            </div>
-        </div>
-    </footer>
-  <!-- Modal -->
-  <div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <button type="button" class="close-modal" data-dismiss="modal"><img src="./images/close.png" alt=""></button>    
-    <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <ul>
-                    <li><a href="">Trang chủ</a></li>
-                    <li><a href="">Thể loại</a></li>
-                    <li><a href="">Sắp xếp</a></li>
-                    <li><a href="">Đăng nhập</a></li>
-                    <li><a href="">Đăng ký</a></li>
-                </ul>
-            </div>
-         </div> 
-  </div>
-    <script src="./js/jquery-3.4.1.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/main.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home</title>
+		<link rel="stylesheet" href="./css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/responsive.css" />
+	</head>
+	<body>
+		<header id="wrap-header" class="bg-red">
+			<div class="container">
+				<div class="search">
+					<div class="form-search">
+						<img src="./images/search-orange.png" alt="" />
+						<form action="">
+							<input type="text" />
+						</form>
+					</div>
+				</div>
+				<div class="logo">
+					<a href=""><img src="./images/logo.png" alt="" /></a>
+				</div>
+				<div class="menu">
+					<button data-toggle="modal" data-target="#menuModal">
+						<img class="pointer" src="./images/bar.png" alt="" />
+					</button>
+				</div>
+			</div>
+		</header>
+		<div id="main-container" class="container">
+			<section id="wrap-account">
+				<div class="thumbnail">
+					<img src="./images/thumbnail.png" alt="" />
+					<p>Tài khoản của: ocbungbu</p>
+					<p>Email: ocbungbu@gmail.com</p>
+					<p>
+						Cấp độ hiện tại :
+						<span>Thánh Hám Tiền Đại Tỷ Nami</span>
+					</p>
+				</div>
+				<div class="candy-status ">
+					<div class="amout-candy">
+						<img src="./images/candy.png" alt="">
+						<span>500</span>
+					</div>
+					<button class="btn red">Tặng kẹo</button>
+				</div>
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+					<li class="nav-item" role="presentation">
+						<a
+							class="nav-link active"
+							id="home-tab"
+							data-toggle="tab"
+							href="#list"
+							role="tab"
+							aria-controls="home"
+							aria-selected="true"
+							>Thông tin chung</a
+						>
+					</li>
+					<li class="nav-item" role="presentation">
+						<a
+							class="nav-link"
+							id="profile-tab"
+							data-toggle="tab"
+							href="#comment"
+							role="tab"
+							aria-controls="profile"
+							aria-selected="false"
+							>Theo dõi</a
+						>
+					</li>
+					<li class="nav-item">
+						<a
+							class="nav-link"
+							id="mission-tab"
+							data-toggle="tab"
+							href="#mission"
+							role="tab"
+							aria-controls="mission"
+							aria-selected="false"
+							>Nhiệm vụ</a
+						>
+					</li>
+					<li class="nav-item">
+						<a
+							class="nav-link"
+							id="upgrade-tab"
+							data-toggle="tab"
+							href="#upgrade"
+							role="tab"
+							aria-controls="upgrade"
+							aria-selected="false"
+							>Nâng cấp</a
+						>
+					</li>
+				</ul>
+				<div class="tab-content" id="myTabContent">
+					<div
+						class="tab-pane fade show active"
+						id="list"
+						role="tabpanel"
+						aria-labelledby="home-tab"
+					>
+						<div class="group-infor">
+							<a href="" class="btn select">Thông báo</a>
+							<a href="" class="btn select">Đổi mật khẩu</a>
+							<a href="" class="btn select">Đăng xuất</a>
+						</div>
+					</div>
+					<div
+						class="tab-pane fade"
+						id="comment"
+						role="tabpanel"
+						aria-labelledby="profile-tab"
+					>
+						<div class="box-comic-layout row padding-top">
+							<div class="col-md-6 col-6 col-lg-3">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-6 col-lg-3">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view_1.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-6 col-lg-3">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view_2.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-6">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view_3.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-6">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-6">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view_1.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-6">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view_2.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-6">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view_3.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-6">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-6">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view_1.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-6">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view_2.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-6">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view_3.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-6">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-6">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view_1.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-6">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view_2.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-6">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view_3.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-6">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-6">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view_1.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-6">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view_2.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-6">
+								<div class="box-comic-layout">
+									<div class="img">
+										<a href="">
+											<img
+												src="./images/image_view_3.png"
+												alt=""
+											/>
+										</a>
+										<div class="note">
+											<div class="view">
+												<img
+													src="./images/eye.png"
+													alt=""
+												/>
+												<p>1.000.000</p>
+											</div>
+											<div class="comment">
+												<img
+													src="./images/comment.png"
+													alt=""
+												/>
+												<p>1.000</p>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<h3>Nanatsu No Taizai</h3>
+										<div class="info">
+											<p>Chapter 120</p>
+											<span>34 phút trước</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button class="btn more">
+							Xem thêm nhiều truyện hơn
+						</button>
+					</div>
+					<div
+						class="tab-pane fade"
+						id="mission"
+						role="tabpanel"
+						aria-labelledby="mission-tab"
+					>
+						<div class="list-mission">
+							<div class="item-mission">
+								<div class="content-mission">
+									<h4>Điểm danh hằng ngày</h4>
+									<span
+										>Điểm danh đủ 7 ngày nhận được 100
+										kẹo</span
+									>
+								</div>
+								<div class="status-mission">
+									<button class="btn red">
+										Điểm danh 6/7 ngày
+									</button>
+								</div>
+							</div>
+							<div class="item-mission">
+								<div class="content-mission">
+									<h4>Online hàng ngày</h4>
+									<span>Online đủ 10 phút nhận 20 kẹo</span>
+								</div>
+								<div class="status-mission">
+									<button class="btn red">
+										Đã online 05:25
+									</button>
+								</div>
+							</div>
+							<div class="item-mission">
+								<div class="content-mission">
+									<h4>Đọc truyện săn kẹo</h4>
+									<span
+										>Đọc trên 10 chap truyện mỗi ngày nhận
+										ngay 10 kẹo</span
+									>
+								</div>
+								<div class="status-mission">
+									<button class="btn red">
+										Đã đọc 3 chap cố lên nà !
+									</button>
+								</div>
+							</div>
+							<div class="item-mission">
+								<div class="content-mission">
+									<h4>Mời bạn bè cùng cày truyện</h4>
+									<span
+										>Mời bạn bè cùng xem nhận ngay 100
+										kẹo</span
+									>
+								</div>
+								<div class="status-mission">
+									<button class="btn red">Mời ngay</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div
+						class="tab-pane fade"
+						id="upgrade"
+						role="tabpanel"
+						aria-labelledby="upgrade-tab"
+					>
+						<div class="list-mission">
+							<div class="item-mission">
+								<div class="content-mission">
+									<div class="box-upgrade">
+										<img src="./images/vip.png" alt="" />
+										<h4 class="name-vip">
+											Thánh Hám Tiền : Đại Tỷ Nami
+										</h4>
+										<span class="detail-vip"
+											>VIP 1: 1500 kẹo</span
+										>
+									</div>
+								</div>
+								<div class="status-mission">
+									<button class="btn red" disabled>
+										Nâng cấp ngay
+									</button>
+								</div>
+							</div>
+							<div class="item-mission">
+								<div class="content-mission">
+									<div class="box-upgrade">
+										<img src="./images/vip2.png" alt="" />
+										<h4 class="name-vip">
+											Thánh Ngã : Yuuki Rito
+										</h4>
+										<span class="detail-vip"
+											>VIP 2: 1400 kẹo</span
+										>
+									</div>
+								</div>
+								<div class="status-mission">
+									<button class="btn red">
+										Nâng cấp ngay
+									</button>
+								</div>
+							</div>
+							<div class="item-mission">
+								<div class="content-mission">
+									<div class="box-upgrade">
+										<img src="./images/vip3.png" alt="" />
+										<h4 class="name-vip">
+											Thánh Oppai : Issei Hyoudou
+										</h4>
+										<span class="detail-vip"
+											>VIP 3: 1500 kẹo</span
+										>
+									</div>
+								</div>
+								<div class="status-mission">
+									<button class="btn red">
+										Nâng cấp ngay
+									</button>
+								</div>
+							</div>
+							<div class="item-mission">
+								<div class="content-mission">
+									<div class="box-upgrade">
+										<img src="./images/vip4.png" alt="" />
+										<h4 class="name-vip">
+											Thánh Phồng : Saitama
+										</h4>
+										<span class="detail-vip"
+											>VIP 4: 1300 kẹo</span
+										>
+									</div>
+								</div>
+								<div class="status-mission">
+									<button class="btn red">
+										Nâng cấp ngay
+									</button>
+								</div>
+							</div>
+							<div class="item-mission">
+								<div class="content-mission">
+									<div class="box-upgrade">
+										<img src="./images/vip5.png" alt="" />
+										<h4 class="name-vip">
+											Thánh Cơ Hội : Momonosuke
+										</h4>
+										<span class="detail-vip"
+											>VIP 5: 1200 kẹo</span
+										>
+									</div>
+								</div>
+								<div class="status-mission">
+									<button class="btn red">
+										Nâng cấp ngay
+									</button>
+								</div>
+							</div>
+							<div class="item-mission">
+								<div class="content-mission">
+									<div class="box-upgrade">
+										<img src="./images/vip6.png" alt="" />
+										<h4 class="name-vip">
+											Thánh Mù Đường : Roronoa Zoro
+										</h4>
+										<span class="detail-vip"
+											>VIP 6: 1100 kẹo</span
+										>
+									</div>
+								</div>
+								<div class="status-mission">
+									<button class="btn red">
+										Nâng cấp ngay
+									</button>
+								</div>
+							</div>
+							<div class="item-mission">
+								<div class="content-mission">
+									<div class="box-upgrade">
+										<img src="./images/vip7.png" alt="" />
+										<h4 class="name-vip">
+											Thánh Hoàn Hảo : Sakamoto
+										</h4>
+										<span class="detail-vip"
+											>VIP 7: 1000 kẹo</span
+										>
+									</div>
+								</div>
+								<div class="status-mission">
+									<button class="btn red">
+										Nâng cấp ngay
+									</button>
+								</div>
+							</div>
+							<div class="item-mission">
+								<div class="content-mission">
+									<div class="box-upgrade">
+										<img src="./images/vip8.png" alt="" />
+										<h4 class="name-vip">
+											Thánh Bựa : Gin
+										</h4>
+										<span class="detail-vip"
+											>VIP 8: 900 kẹo</span
+										>
+									</div>
+								</div>
+								<div class="status-mission">
+									<button class="btn red">
+										Nâng cấp ngay
+									</button>
+								</div>
+							</div>
+							<div class="item-mission">
+								<div class="content-mission">
+									<div class="box-upgrade">
+										<img src="./images/vip9.png" alt="" />
+										<h4 class="name-vip">
+											Thánh Hám Gái : Sanji
+										</h4>
+										<span class="detail-vip"
+											>VIP 9: 800 kẹo</span
+										>
+									</div>
+								</div>
+								<div class="status-mission">
+									<button class="btn red">
+										Nâng cấp ngay
+									</button>
+								</div>
+							</div>
+							<div class="item-mission">
+								<div class="content-mission">
+									<div class="box-upgrade">
+										<img src="./images/vip10.png" alt="" />
+										<h4 class="name-vip">
+											Thánh Pantsu : Brook
+										</h4>
+										<span class="detail-vip"
+											>VIP 10: 700 kẹo</span
+										>
+									</div>
+								</div>
+								<div class="status-mission">
+									<button class="btn red">
+										Nâng cấp ngay
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer id="wrap-footer">
+			<div class="container">
+				<div class="logo">
+					<img src="./images/logo_2.png" alt="" />
+				</div>
+				<div class="contact">
+					<div class="brand">
+						<a href="">
+							<img src="./images/fb.png" alt="" />
+							Fb.com/xotruyen.net
+						</a>
+					</div>
+					<div class="brand">
+						<a href="">
+							<img src="./images/ytb.png" alt="" />
+							Yt/xotruyen.net
+						</a>
+					</div>
+					<div class="brand">
+						<a href="">
+							<img src="./images/mail.png" alt="" />
+							Ocbungbu@gmail.com
+						</a>
+					</div>
+				</div>
+				<div class="copyright">
+					<p>Ⓒ 2020 Bản quyền thuộc về Xó Truyện</p>
+				</div>
+			</div>
+		</footer>
+		<!-- Modal -->
+		<div
+			class="modal fade"
+			id="menuModal"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby="exampleModalLabel"
+			aria-hidden="true"
+		>
+			<button type="button" class="close-modal" data-dismiss="modal">
+				<img src="./images/close.png" alt="" />
+			</button>
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<ul>
+						<li><a href="">Trang chủ</a></li>
+						<li><a href="">Thể loại</a></li>
+						<li><a href="">Sắp xếp</a></li>
+						<li><a href="">Đăng nhập</a></li>
+						<li><a href="">Đăng ký</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script src="./js/jquery-3.4.1.min.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
+		<script src="./js/main.js"></script>
+	</body>
 </html>
