@@ -213,6 +213,7 @@ img.item-emoji{height: 40px; cursor: pointer; margin-right: 5px;}
 .group-post-comment .sticker{position: absolute; top: 7px; z-index: 1; right: 11%; }
 .group-post-comment .sticker img{width: 16px; cursor: pointer; }
 .group-post-comment .form-comment form{display: flex; position: relative; justify-content: space-between;}
+.group-post-comment .form-comment form .emoji{height: 160px; overflow-y: scroll; z-index: 11; background-color: antiquewhite; position: absolute; top: 30px; right: 10%; display: none; width: 300px;}
 .group-post-comment .form-comment .img{ position: relative; display: inline-block;}
 .group-post-comment .form-comment .img .remove-icon{position: absolute; top: 0; right: 0;}
 .group-post-comment{border: 1px solid #d8d8d8; padding: 10px}
@@ -275,7 +276,7 @@ section#wrap-list-and-comment .tab-content #comment{padding: 50px 0}
 
 .emoji-label{position: absolute; top: 7px; right: 13%; z-index: 1; width: 16px; cursor: pointer;}
 
-.show-img-emoji{display: none; position: relative;}
+.show-img-emoji{ position: relative; display: none;}
 .show-img-emoji i{position: absolute; top: 0; right: 0;}
 .show-img-emoji img{height: 60px;}
 #emojiModal .modal-content{padding: 20px}

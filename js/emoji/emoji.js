@@ -32,16 +32,24 @@ $(document).ready(function(){
         search: false
     });
     $('.emoji-label').click(function(){
-        $("#emojiModal").modal('show');
-        parent = $(this).parent().parent();
+        parent = $(this).parent();
+        let status = parent.find('.emoji').css('display');
+        if(status == 'block'){
+            parent.find('.emoji').hide();
+        }
+        else{
+            parent.find('.emoji').show();
+        }
+        
         $('img.item-emoji').click(function(){
-            parent.find('.show-img-emoji').css('display', 'inline-block');
-            parent.find('.show-img-emoji img').attr('src', $(this).attr('src'));
-            $("#emojiModal").modal('hide');
+            parent.find('.emoji').hide();
+            parent.parent().find('.show-img-emoji').css('display', 'inline-block');
+            parent.parent().find('.show-img-emoji img').attr('src', $(this).attr('src'));
         });
     });
     $('.close-emoji').click(function(){
         $(this).parent().hide();
     });
+    
 });
 
