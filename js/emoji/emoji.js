@@ -7,8 +7,6 @@ $(document).ready(function(){
        for(let i = 1; i <= AMOUNT_EMOJI; i++){
            html += `<img src="./images/emoji/giphy${i}.webp" class="item-emoji" alt=""> `;
        }
-       html += html;
-       html += html;
        return html;
    } 
    $('.emoji').html(innerEmoji);
@@ -40,15 +38,13 @@ $(document).ready(function(){
         else{
             parent.find('.emoji').show();
         }
-        
-        $('img.item-emoji').click(function(){
-            parent.find('.emoji').hide();
-            parent.parent().find('.show-img-emoji').css('display', 'inline-block');
-            parent.parent().find('.show-img-emoji img').attr('src', $(this).attr('src'));
-        });
     });
-    $('.close-emoji').click(function(){
-        $(this).parent().hide();
+    $('img.item-emoji').click(function(){
+        let parent = $(this).parent().parent();
+        console.log(parent);
+        console.log(1);
+        parent.find('.emoji').hide();
+        parent.find('.emojionearea-editor').append(`<img src="${$(this).attr('src')}" />`);
     });
     
 });
