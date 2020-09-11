@@ -114,6 +114,16 @@ $(document).ready(function () {
     $(".nav-link").click(function () {
         setFooter();
     })
+    $(window).scroll(function () {
+        let limitTop = $("#wrap-header").outerHeight() + 35 + $("#wrap-change-server").outerHeight() + $("#wrap-breadcumb").outerHeight();
+        let limitBottom = limitTop + $("#content-comic").outerHeight() - $(window).outerHeight();
+        if($(this).scrollTop() > limitTop && $(this).scrollTop() < limitBottom){
+           $(".sticky-bar").show();
+        }
+        else{
+            $(".sticky-bar").hide();
+        }
+    })
     $(window).resize(function () {
         setFooter();
     })

@@ -141,16 +141,16 @@ section#wrap-list-and-comment .tab-content .tab-pane{padding: 30px 50px 0 50px;h
 section #list ul li{ border-top: 1px solid #E0E0E0; border-bottom: 1px solid #E0E0E0;}
 section #list ul li a{padding: 18px 0;;display: flex; justify-content: space-between; font-size: 20px;}
 section #list ul li span{color: #828282;}
-
+ol.breadcrumb{margin-bottom: 0; padding-bottom: 16px;}
 /* main-container->wrap-read */
 section#wrap-change-server p{text-align: center; font-size: 20px;}
-section#wrap-change-server .list-server{width: 77%;  display: flex; justify-content: space-between; margin: 40px auto;}
+section#wrap-change-server .list-server{width: 77%;  display: flex;  margin: 0 auto; justify-content: space-between; align-items: center; padding: 40px 0}
 section#wrap-change-server .list-server a.btn{width: 24%; color: white;padding: 5px 0; background-color: #FF3D00; border-radius: 3px;}
 section#wrap-change-server .list-server a.btn:last-child{background-color: #EB5757;}
 section#wrap-change-server .list-server a.btn:nth-child(3){background-color: #F2C94C;}
 section#wrap-change-server .list-server a.btn:nth-child(2){background-color: #BB6BD9;}
-section#content-comic img{margin: 0 auto; display: block;}
-section#select-chap .action{display: flex; width: 77%; margin:  40px auto; justify-content: space-between;}
+section#content-comic img{margin: 0 auto; display: block; width: 100%;}
+section#select-chap .action{display: flex; width: 77%; margin:  0 auto; justify-content: space-between; padding: 40px 0}
 section#select-chap .action a{color: white;  align-items: center; width: 24%; padding: 10px 0;}
 section#select-chap .action p{font-size: 20px;}
 section#select-chap a.follow{margin: 0 auto;  width: 40%;  color: white; padding: 10px 0;}
@@ -289,4 +289,9 @@ section#wrap-list-and-comment .tab-content #comment{padding: 50px 0}
 .emojionearea-editor img{height: 60px;}
 #emojiModal .modal-content{padding: 20px}
 .group-post-comment.reply .emojionearea-editor{ min-height: 30px}
-
+.sticky-bar{padding: 10px 0;  background-color: white; position: fixed;; top: 0; left: 0; width: 100%;}
+.sticky-bar .chap-handle{display: flex; justify-content: space-between;}
+.sticky-bar .container a.btn{width: 20%; height: 35px;}
+.sticky-bar form {width: 20%;}
+.sticky-bar form .form-group{margin-bottom: 0;}
+.sticky-bar button.follow{height: 35px; display: block; width: 20%; }
